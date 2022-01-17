@@ -1,0 +1,205 @@
+body {
+    font-family: "Montserrat-Black";
+}
+/* Universais */
+h1,h2,h3 {
+    font-family: "Montserrat-Black";
+}
+/* Seção Inicial */
+.container {
+    padding: 50px 30px;
+}
+
+
+#title {
+    background-color: #ff4c6B;
+    padding-bottom: 16%;
+}
+
+#h1 {
+    font-size: 3.3rem;
+    line-height: 1.3;
+    font-weight: 700;
+    padding-bottom: 4%;
+    color:rgb(0, 0, 0);
+    }
+.img1 {
+    position: absolute;
+    transform: rotate(20deg);
+    width: 40%;
+    margin: -40px -140px;
+}
+.navbar {
+    padding-bottom: 1.8rem;
+}
+.navbar .navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.nav-item {
+    padding: 0px 13px;
+    font-size: 23px;
+}
+.dwButton {
+    margin: 10px 13px 10px 0px;
+}
+
+
+.git {
+    padding: 7px 65px;
+    text-decoration: none;
+    color:rgb(52, 211, 211);
+}
+.git:hover {
+    color:rgb(73, 138, 138);
+}
+.lp {
+    color:rgb(255, 255, 255);
+}
+
+/* Informações da Rede Social */
+#features {
+    padding: 7% 2%;
+    margin-top: -5%;
+    background-color: #ffff;
+    z-index: 1;
+    position: relative;
+}
+
+
+.diV1 {
+    text-align: center;
+    padding: 5%;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: 900;
+    margin: 0px 0px 7px 0px;
+}
+.p1 {
+    color: rgb(75, 69, 69);
+    font-weight: 550;
+}
+.fig {
+    color: #b8665b;
+    margin-bottom: 1rem;
+}
+.fig:hover {
+    color:#ff4c6B;
+}
+
+/* Avaliações */
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:rgb(255, 255, 255);
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.img2 {
+    width: 10%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.empresaLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.com {
+    padding: 5%;
+}
+.btnn {
+    margin: 100px -10%;
+}
+/* Tabela de Preços */
+#pricing {
+    padding: 100px;
+    font-family: "Ubuntu";
+    line-height: 1.5;
+}
+.cardd {
+    padding: 4% 0%;
+}
+.row .nomePlano {
+    text-align: center;
+    font-family: "Ubuntu";
+    padding-bottom: 19px;
+}
+.row .nomePlano2 {
+    text-align: center;
+    font-family: "Ubuntu";
+}
+.tit {
+    font-weight: 550;
+}
+.p11 {
+    font-size: 1.4rem;
+}
+
+/* Chamada pra Venda */
+#cta {
+    background-color: #ff4c6B;
+    padding-bottom: 10%;
+    color: #fff;
+}
+.h3ToFinal {
+    font-family: "Montserrat";
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+.dwButtonAgain { 
+    margin: 0px 16px 10px 0px;
+}
+/* Classes agilisadoras */
+.ArrumarPad {
+    padding: 7% 15%;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+
+/* Rodapé */
+
+#footer {
+    text-align: center;
+}
+.icons {
+    margin: 20px 9px;
+}
+/* Site Responsivo */
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .show {
+        text-align: center;
+        
+    }
+    .container {
+        /* margin: 60% 10%;
+        margin: -60% 0px; */
+        margin-bottom: -160px;
+    }
+    .com1 {
+        padding: 10.3%;
+    }
+    .img1 {
+        position: static;
+        transform: rotate(0deg);
+        margin: 90px 100px;
+        width: 80%;
+    }
+}
+
